@@ -7,17 +7,19 @@ function Footer() {
     return (
         <div className='footer'>
             <button>
-                <img src={TwitterIcon} />
+                <img src={TwitterIcon} alt='Twitter Icon' />
             </button>
             <button>
-                <img src={FacebookIcon} />
+                <img src={FacebookIcon} alt='Facebook Icon' />
             </button>
             <button>
-                <img src={InstaIcon} />
+                <img src={InstaIcon} alt='Instagram Icon' />
             </button>
-            <button>
-                <img src={GithubIcon} />
-            </button>
+            <a href='https://www.github.com/jamunoz24' target='_blank' rel='noreferrer'>
+                <button>
+                    <img src={GithubIcon} alt='GitHub Icon' />
+                </button>
+            </a>
         </div>
     );
 }
