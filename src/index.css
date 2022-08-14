@@ -2,16 +2,22 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     background-color: #23252c;
     font-family: 'Inter', sans-serif;
 }
 
-a, button {
+a,
+button {
     background: none;
     color: inherit;
     border: none;
     margin: auto;
+}
+
+img {
+    align-self: center;
 }
 
 .App {
@@ -49,6 +55,41 @@ a, button {
 .profile--buttons {
     display: flex;
     justify-content: space-around;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.profile--email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 13px 9px 11px;
+    width: 115px;
+    height: 34px;
+    left: 283px;
+    top: 468px;
+    color: black;
+    background: white;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.profile--linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 13px 9px 11px;
+    width: 115px;
+    height: 34px;
+    left: 283px;
+    top: 468px;
+    background: #5093E2;
+    border-radius: 6px;
+    font-weight: 500;
 }
 
 .about {
@@ -75,5 +116,6 @@ a, button {
     justify-content: space-around;
     position: relative;
     border-radius: 0px 0px 10px 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-

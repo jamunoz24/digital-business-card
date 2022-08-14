@@ -22,11 +22,11 @@ function Profile() {
             <div className='profile--buttons'>
                 <button className='profile--email'>
                     <img src={EmailIcon} alt='Email Icon' />
-                    Email
+                    <p>Email</p>
                 </button>
                 <button className='profile--linkedin'>
                     <img src={LinkedInIcon} alt='LinkedIn Icon' />
-                    LinkedIn
+                    <p>LinkedIn</p>
                 </button>
             </div>
         </div>
