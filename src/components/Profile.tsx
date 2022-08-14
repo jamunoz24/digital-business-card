@@ -12,17 +12,23 @@ function Profile() {
             />
             <p className='profile--name'>Jorge Munoz</p>
             <p className='profile--occupation'>Fullstack Developer</p>
-            <a href='https://www.github.com/jamunoz24' target='_blank'>
-                <p className='website'>www.github.com/jamunoz</p>
+            <a
+                href='https://www.github.com/jamunoz24'
+                target='_blank'
+                className='profile--website'
+            >
+                <p>github.com/jamunoz</p>
             </a>
-            <button className='profile--email'>
-                <img src={EmailIcon} alt='Email Icon' />
-                Email
-            </button>
-            <button className='profile--linkedin'>
-                <img src={LinkedInIcon} alt='LinkedIn Icon' />
-                LinkedIn
-            </button>
+            <div className='profile--buttons'>
+                <button className='profile--email'>
+                    <img src={EmailIcon} alt='Email Icon' />
+                    Email
+                </button>
+                <button className='profile--linkedin'>
+                    <img src={LinkedInIcon} alt='LinkedIn Icon' />
+                    LinkedIn
+                </button>
+            </div>
         </div>
     );
 }

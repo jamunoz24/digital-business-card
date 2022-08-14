@@ -1,5 +1,3 @@
-import Footer from './Footer';
-
 function About() {
     return (
         <div className='about'>
@@ -10,12 +8,11 @@ function About() {
                 security and best practices, and am always looking for new
                 things to learn.
             </p>
-            <h3 className='about--interests'>Interests</h3>
+            <h3 className='about--about'>Interests</h3>
             <p>
                 Coder. Fitness. Skateboarder. Reader. Internet fanatic. Lifelong
                 learning. Travel. Musician.
             </p>
-            <Footer />
         </div>
     );
 }

@@ -15,7 +15,7 @@ function Footer() {
             <button>
                 <img src={InstaIcon} alt='Instagram Icon' />
             </button>
-            <a href='https://www.github.com/jamunoz24' target='_blank' rel='noreferrer'>
+            <a href='https://www.github.com/jamunoz' target='_blank' rel='noreferrer'>
                 <button>
                     <img src={GithubIcon} alt='GitHub Icon' />
                 </button>
